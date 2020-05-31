@@ -1,0 +1,4 @@
+beautifulsoup4==4.9.1
+hazm==0.7.0
+pandas==1.0.4
+parsivar==0.2.3
