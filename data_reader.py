@@ -42,7 +42,7 @@ def calc_tf_idf(term, doc_id):
 if __name__ == '__main__':
     news_details = []
     for csv_index in range(6):
-        data = pd.read_csv(f'../IR_project/IR-S19-project-data/ir-news-{2 * csv_index}-{2 * csv_index + 2}.csv')
+        data = pd.read_csv(f'IR-S19-project-data/ir-news-{2 * csv_index}-{2 * csv_index + 2}.csv')
         for ind in range(data.shape[0]):
             news_details.append({
                 'title': data['title'][ind],

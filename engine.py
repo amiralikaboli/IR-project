@@ -36,13 +36,13 @@ def similarity(doc_vec, query_vec):
 if __name__ == '__main__':
     with open('news_details.json', 'r') as json_file:
         news_details = json.load(json_file)
-    with open('../IR_project/inverted_index.json', 'r') as json_file:
+    with open('inverted_index.json', 'r') as json_file:
         inverted_index = json.load(json_file)
-    with open('../IR_project/champion_lists.json', 'r') as json_file:
+    with open('champion_lists.json', 'r') as json_file:
         champion_lists = json.load(json_file)
-    with open('../IR_project/doc_frequency.json', 'r') as json_file:
+    with open('doc_frequency.json', 'r') as json_file:
         doc_frequency = json.load(json_file)
-    with open('../IR_project/normalized_tf_idf.json', 'r') as json_file:
+    with open('normalized_tf_idf.json', 'r') as json_file:
         normalized_tf_idf = json.load(json_file)
 
     while True:
